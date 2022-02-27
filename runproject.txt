@@ -1,0 +1,11 @@
+git clone https://github.com/Omkar0231/Chat-app-tutorial.git
+python -m venv Chat-app-tutorial
+cd Chat-app-tutorial
+cd Scripts >activate.bat
+python -m pip install Django
+pipenv install
+pip install -r requirements.txt
+python -m pip install --upgrade pip
+pip install cryptography
+python -m ensurepip
+
