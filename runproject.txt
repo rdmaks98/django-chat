@@ -6,6 +6,10 @@ python -m pip install Django
 pipenv install
 pip install -r requirements.txt
 python -m pip install --upgrade pip
-pip install cryptography
-python -m ensurepip
+pip install mysqlclient
+python manage.py migrate sessions
+python manage.py createsuperuser
+python manage.py runserver
 
+
+https://dev.to/earthcomfy/introduction-to-web-sockets-3n7m
